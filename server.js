@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // ⚠️ REPLACE THIS with your MongoDB Atlas connection string
-const MONGO_URI = process.env.mongo_url;
+const MONGO_URI = process.env.MONGO_URI;
 const DB_NAME = "hostel_cms";
 const COL_NAME = "complaints";
 
